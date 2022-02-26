@@ -113,3 +113,9 @@ button#create-account {
 input:focus-visible {
     outline-color: blue;
 }
+
+input.invalid {
+    border-color: red;
+    border-radius: 5px;
+    outline-color: red;
+}
