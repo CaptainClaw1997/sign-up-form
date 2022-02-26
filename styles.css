@@ -1,7 +1,16 @@
+div#main {
+    display: flex;
+    flex-direction: row;
+}
+
 img#formBackground {
     height: 100%;
 }
 
 img#logo {
     height: 5rem;
+}
+
+div#content {
+    background-color: white;
 }
