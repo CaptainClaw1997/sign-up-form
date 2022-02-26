@@ -1,3 +1,7 @@
+:root {
+    --div-content-items-margin: 20px;
+}
+
 div#main {
     display: flex;
     flex-direction: row;
@@ -13,7 +17,9 @@ img#logo {
 
 div#content {
     background-color: whitesmoke;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
 }
 
 form {
@@ -23,4 +29,12 @@ form {
 
 h1#formHeading {
     margin: 0px 0px 20px;
+}
+
+h1#sign-up-page-description {
+    margin: var(--div-content-items-margin);
+}
+
+h4 {
+    margin: var(--div-content-items-margin);
 }
