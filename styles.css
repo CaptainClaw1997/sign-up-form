@@ -38,3 +38,13 @@ h1#sign-up-page-description {
 h4 {
     margin: var(--div-content-items-margin);
 }
+
+button#create-account {
+    background-color: green;
+    color: white;
+    margin: 20px 0px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
