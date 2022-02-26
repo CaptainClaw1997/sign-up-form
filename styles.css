@@ -22,7 +22,7 @@ div#content {
     align-items: baseline;
 }
 
-form {
+form>div {
     background-color: white;
     padding: 20px;
     border-color: rgb(87, 87, 87);
@@ -44,7 +44,7 @@ h4 {
 button#create-account {
     background-color: green;
     color: white;
-    margin: 20px 0px;
+    margin: 20px;
     border-radius: 5px;
     padding: 10px 30px;
     font-size: 18px;
