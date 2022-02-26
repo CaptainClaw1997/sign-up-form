@@ -119,3 +119,14 @@ input.invalid {
     border-radius: 5px;
     outline-color: red;
 }
+
+#password-mismatch-error-container {
+    min-height: 2rem;
+    margin: 0px;
+    padding-top: 1rem;
+}
+
+#password-mismatch-error-message {
+    color: red;
+    margin: 0px;
+}
