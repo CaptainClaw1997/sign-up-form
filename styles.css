@@ -72,7 +72,7 @@ form>div {
     box-shadow: 0px 5px 5px 0px rgb(180, 180, 180);
 }
 
-#sign-up-page-description {
+.sign-up-page-description {
     margin: var(--div-content-items-margin);
 }
 
