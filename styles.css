@@ -1,5 +1,9 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 :root {
-    --div-content-items-margin: 20px;
+    --div-content-items-margin: 30px;
 }
 
 div#main {
@@ -7,7 +11,7 @@ div#main {
     flex-direction: row;
 }
 
-img#formBackground {
+img#form-background {
     height: 100%;
 }
 
@@ -24,17 +28,33 @@ div#content {
 
 form>div {
     background-color: white;
-    padding: 20px;
+    padding: 10px var(--div-content-items-margin);
     border-color: rgb(87, 87, 87);
     box-shadow: 0px 5px 5px 0px rgb(180, 180, 180);
 }
 
-h1#formHeading {
+#sign-up-page-description {
+    margin: var(--div-content-items-margin);
+}
+
+#form-heading {
     margin: 0px 0px 20px;
 }
 
-h1#sign-up-page-description {
-    margin: var(--div-content-items-margin);
+#text-box-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 20% 5px 0px;
+}
+
+.text-box>label {
+    font-size: 20px;
+    font-weight: 600;
 }
 
 h4 {
@@ -44,9 +64,9 @@ h4 {
 button#create-account {
     background-color: green;
     color: white;
-    margin: 20px;
+    margin: var(--div-content-items-margin);
     border-radius: 5px;
     padding: 10px 30px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 800;
 }

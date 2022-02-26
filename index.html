@@ -11,7 +11,7 @@
 <body>
     <div id="main">
         <div id="image-container">
-            <img src="images/green-leaves.jpeg" id="formBackground">
+            <img src="images/green-leaves.jpeg" id="form-background">
             <div id="logo-bar">
                 <img src="images/odin-lined.png" id="logo">
                 <h1>Random Firm</h1>
@@ -24,19 +24,33 @@
             <h1 id="sign-up-page-description">A sign up page for a Random Firm because why not</h1>
             <form method="post" action="#">
                 <div>
-                    <h1 id="formHeading">Let's do this!</h1>
-                    <label for="first-name">First Name</label>
-                    <input type="text" name="firstName" id="first-name">
-                    <label for="last-name">Last Name</label>
-                    <input type="text" name="lastName" id="last-name">
-                    <label for="email">Email Address</label>
-                    <input type="email" name="email" id="email">
-                    <label for="phone-number">Phone Number</label>
-                    <input type="tel" name="phoneNumber" id="phone-number">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password">
-                    <label for="confirm-password">Confirm Password</label>
-                    <input type="password" name="confirmPassword" id="confirm-password">
+                    <h2 id="form-heading">Let's do this!</h1>
+                    <div id="text-box-container">
+                        <div class="text-box">
+                            <label for="first-name">First Name</label>
+                            <input type="text" name="firstName" id="first-name">
+                        </div>
+                        <div class="text-box">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" name="lastName" id="last-name">
+                        </div>
+                        <div class="text-box">
+                            <label for="email">Email Address</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="text-box">
+                            <label for="phone-number">Phone Number</label>
+                            <input type="tel" name="phoneNumber" id="phone-number">
+                        </div>
+                        <div class="text-box">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div class="text-box">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" name="confirmPassword" id="confirm-password">
+                        </div>
+                    </div>
                 </div>
                 <button type="submit" id="create-account">
                     Create Account
