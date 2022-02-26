@@ -1,0 +1,132 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --div-content-items-margin: 30px;
+}
+
+div#main {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+#image-container {
+    background-image: url(./images/green-leaves.jpeg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+#form-background {
+    height: 100vh;
+    width: auto;
+}
+
+#logo-bar {
+    display: flex;
+    margin-top: 30%;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(20, 20, 20, 0.5);
+}
+
+#logo-bar>h1 {
+    color: white;
+}
+
+#image-credit {
+    left: 50%;
+    color: white;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#image-credit>a {
+    color: white;
+}
+
+img#logo {
+    height: 5rem;
+}
+
+div#content {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+
+form>div {
+    background-color: white;
+    padding: 10px var(--div-content-items-margin);
+    border-color: rgb(87, 87, 87);
+    box-shadow: 0px 5px 5px 0px rgb(180, 180, 180);
+}
+
+.sign-up-page-description {
+    margin: var(--div-content-items-margin);
+}
+
+#form-heading {
+    margin: 0px 0px 20px;
+}
+
+#text-box-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 20% 5px 0px;
+}
+
+.text-box>label {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h4 {
+    margin: var(--div-content-items-margin);
+}
+
+button#create-account {
+    background-color: green;
+    color: white;
+    margin: var(--div-content-items-margin);
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+input:focus-visible {
+    outline-color: blue;
+}
+
+input.invalid {
+    border-color: red;
+    border-radius: 5px;
+    outline-color: red;
+}
+
+#password-mismatch-error-container {
+    min-height: 2rem;
+    margin: 0px;
+    padding-top: 1rem;
+}
+
+#password-mismatch-error-message {
+    color: red;
+    margin: 0px;
+}
