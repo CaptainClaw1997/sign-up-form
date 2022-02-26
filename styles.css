@@ -12,6 +12,10 @@ img#logo {
 }
 
 div#content {
-    background-color: white;
+    background-color: whitesmoke;
     padding: 20px;
+}
+
+form {
+    background-color: white;
 }
