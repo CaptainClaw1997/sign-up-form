@@ -9,8 +9,41 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <div>
-        <img src="images/green-leaves.jpeg">
+    <div id="main">
+        <div id="image-container">
+            <img src="images/green-leaves.jpeg" id="formBackground">
+            <div id="logo-bar">
+                <img src="images/odin-lined.png" id="logo">
+                <h1>Random Firm</h1>
+            </div>
+            <div id="image-credit">
+                Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a>
+            </div>
+        </div>
+        <div id="content">
+            A sign up page for a Random Firm because why not
+            <form method="post" action="#">
+                <div>
+                    <h1>Let's do this!</h1>
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName">
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="tel" name="phoneNumber" id="phoneNumber">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword">
+                </div>
+                <button type="submit">
+                    Create Account
+                </button>
+            </form>
+            <h4>Already have an account? <a href="#">Log in</a></h4>
+        </div>
     </div>
 </body>
 </html>
