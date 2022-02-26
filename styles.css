@@ -109,3 +109,7 @@ button#create-account {
     font-size: 18px;
     font-weight: 800;
 }
+
+input:focus-visible {
+    outline-color: blue;
+}
